@@ -1,2 +1,1 @@
-# bloodapp
-Blood Donation App
+# Blood Donation Directory

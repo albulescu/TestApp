@@ -14,7 +14,7 @@
     "dist": "npm run copy & webpack --env=build",
     "lint": "eslint ./src",
     "copy": "cp src/index.html build && cp src/favicon.ico build && cp -r views tasks build",
-    "clean": "rm -rf build/*",
+    "clean": "rm -rf build/*"
   },
   "repository": "git@github.com:albulescu/bloodapp.git",
   "keywords": [],

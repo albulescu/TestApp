@@ -66,6 +66,7 @@
     "webpack-dev-server": "^1.12.0"
   },
   "dependencies": {
+    "arcgis": "^1.0.1",
     "autoprefixer": "^6.3.6",
     "babel-preset-stage-1": "^6.5.0",
     "core-js": "^2.0.0",
@@ -75,6 +76,7 @@
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
+    "react-inlinesvg": "^0.5.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.4.1",
     "redux": "^3.5.2",

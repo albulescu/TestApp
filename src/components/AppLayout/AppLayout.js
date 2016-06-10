@@ -1,20 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+require('./Style.less');
+
 const AppLayout = function AppLayout(props) {
   return (
     <div className="main">
-      <div>
-        <Link to={'/donate'}>Donate</Link>
-      </div>
-      <div>{props.children}</div>
-      <div>Footer</div>
+      {props.children}
     </div>
   );
 };
 
 AppLayout.propTypes = {
-  children: React.PropTypes.array,
+  children: React.PropTypes.any,
 };
 
 export default AppLayout;

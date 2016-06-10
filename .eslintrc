@@ -36,6 +36,7 @@
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
     "padded-blocks": 0,
+    "react/prefer-stateless-function":0,
     "react/jsx-no-bind":[2, { "allowBind": true, "allowArrowFunctions": true, "ignoreRefs": true }],
     "react/prop-types": [2, { ignore:[
       'dispatch',
